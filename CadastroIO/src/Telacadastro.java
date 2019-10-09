@@ -211,7 +211,12 @@ public class Telacadastro extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        System.exit(0);
+        if (javax.swing.JOptionPane.showConfirmDialog(null,"Deseja Fechar?","Atencção",javax.swing.JOptionPane.YES_NO_OPTION) ==0){
+        System.exit(0);    
+        }else{
+                
+                }
+        
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
